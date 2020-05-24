@@ -1,0 +1,94 @@
+{
+  "users": [],
+  "booking": [
+    {
+      "name": "Pokój unarny",
+      "price": "12"
+    },
+    {
+      "name": "Zabieg piekarniczy",
+      "price": "367"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1",
+      "name": "Pokój unarny",
+      "desc": "Dysponujemy luksusowo wyposażonymi apartamentami, ten pokój wpradzie do nich nie należy, ale jak nie masz budżetu to nie narzekaj.",
+      "beds": "1",
+      "guests": "1",
+      "price": "170",
+      "booked": [["1/6/2020-4/6/2020"]]
+    },
+    {
+      "id": "2",
+      "name": "Pokój binarny",
+      "desc": "Pokój z przepięknym widokiem na panoramę miasta. Ze względu na remont okno zostało zasłonięte karton-gipsem.",
+      "beds": "1",
+      "guests": "2",
+      "price": "240",
+      "booked": [["1/6/2020-4/6/2020"]]
+    },
+    {
+      "id": "3",
+      "name": "Pokój trójkowy",
+      "desc": "Luksusowo wyposażonym apartamentem w suterenie z niewielką ilością grzyba na ścianie. Sprzątany sezonowo w systemie rotacyjnym przez lokatorów",
+      "beds": "2",
+      "guests": "3",
+      "price": "290",
+      "booked": [["1/6/2020-4/6/2020"]]
+    },
+    {
+      "id": "4",
+      "name": "Pokój czwórkowy",
+      "desc": "Pokó",
+      "beds": "2",
+      "guests": "4",
+      "price": "340",
+      "booked": [["1/6/2020-4/6/2020"],["13/6/2020-23/7/2021"]]
+    }
+  ],
+  "treatments": [
+    {
+      "id": "1",
+      "name": "Zabiegi lecznicze stóp",
+      "desc": "Stopy należą do części ciała, które intensywnie wykorzystujemy każdego dnia. Niestety często pomijamy je w pielęgnacji. Zaczynamy dbać o stopy dopiero wtedy kiedy pojawią się problemy takie jak np. infekcje grzybicze, otarcia, zgrubienia itd. A wystarczy kilka systematycznych zabiegów by nasze stopy były ładne i zdrowe.",
+      "area": "back",
+      "time": "30",
+      "price": "80"
+    },
+    {
+      "id": "2",
+      "name": "Biczowanie kablem od myszy",
+      "desc": "Jest to zabieg pielęgnujący i upiększający twarz. Piękne paski przyciągną uwagę każdego, kto pragnie mieć zdrowe i zadbane lico oraz uszy. Odpowiednio wypielęgnowane oraz oryginalnie ozdobione z pewnością dodadzą uroku, szczególnie latem.",
+      "area": "back",
+      "time": "20",
+      "price": "70"
+    },
+    {
+      "id": "3",
+      "name": "Peeling odłamkami płyty CD",
+      "desc": "Lakiery hybrydowe, dzięki innowacyjnej formule, pozwalają na wykonanie stylizacji dodatkowej wrstwy skóry, która wytrzymuje nawet do 12 tygodni. Usuwanie lakieru odbywa się manualnie poprzez delikatne spiłowanie wierzchniej (kolorowej) warstwy bez naruszenia podkładu z ciała. Jest to metoda sprawdzona i zdecydowanie bardziej bezpieczna oraz mniej inwazyjna od namaczania ciała w preparatach z acetonem.",
+      "area": "face",
+      "time": "15",
+      "price": "50"
+    },
+    {
+      "id": "4",
+      "name": "Pedicure woskiem z USB",
+      "desc": "Jest to zabieg kosmetyczny, któremu poddawane są paznokcie u stóp lub nóg. Manicure stosują kobiety jak i pradziwi mężczyźni, coraz częściej także dzieci którze pragną mieć ładniejsze, zdrowe paznokcie i zadbane dłonie. Zabieg polega nie tylko na malowaniu, ale też na wyrównywaniu skórek i pielęgnacji płytki paznokci szlifierką oscylacyjną firmy Bosch.",
+      "area": "legs",
+      "time": "25",
+      "price": "100"
+    },
+    {
+      "id": "5",
+      "name": "Masaż analogowo-cyfrowy",
+      "desc": "Już od ponad 3000 lat p.n.e nasi przodkowie stosowali bańki chińskie w różnych przypadłościach i schorzeniach. Do dziś wiemy, że stosowanie baniek chińskich jest nie tylko popularne, ale także dale niesamowite efekty.",
+      "area": "hands",
+      "time": "45",
+      "price": "150"
+    }
+  ]
+}
+ 

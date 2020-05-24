@@ -1,0 +1,155 @@
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+
+.wy-logo {
+    img {
+        height: 40px;
+    }
+    h3 {
+        margin: 3px 0px 0px 5px;
+        
+    }
+} 
+
+.navbar {
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+}
+.nav-item{
+    border-left: 1px solid #9b9b9b;
+}
+
+.nav-item:hover {
+    background-color: #e3e3e3 ;
+    transition: background-color 1s;
+    
+}
+#wySPAcarousel {
+    height: 700px;
+    overflow: hidden;
+}
+.carousel-caption {
+    top: 300px;
+    text-shadow: -2px 2px 37px black;
+}
+.carousel-item > img {
+    height: 700px;
+    object-fit: cover;
+}
+.size-64 {
+    height: 128px;
+    width: 128px;
+    object-fit: cover;
+}
+.brd {
+    
+    height: 100%;
+
+}
+.bord {
+    display: grid;
+    margin: 20px 0px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px #dbdbdb;
+}
+.bord  .btnx {
+    position: relative;
+    top: 30%;
+    margin: 10px;
+    
+}
+.inline {
+    display: flex;
+}
+.inline>p{
+    margin-right: 20px;
+}
+.stretch > div {
+    padding: 0px;
+    margin: 20px;
+    box-sizing: content-box;;
+}
+.cal-wrap {
+    width: 400px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(175, 174, 174, 0.315);
+}
+.cal {
+    background-color: red;
+    
+    font-size: 12px;
+    ul {
+        list-style: none;
+    }
+    .month {
+        background-color: #2894bf;
+        color: #fff;
+        text-align: center;
+        padding: 5px 0px;
+        width: 100%;
+        
+        ul {
+            padding: 5px;
+            font-size: 20px;
+            .mid {
+                padding-top: 15px;
+            }
+            .prev {
+                float: left;
+                
+            }
+            .next {
+                float: right;
+            }
+            .next, .prev {
+                padding: 15px;
+                
+                font-size: 40px;
+            }
+            .next:hover, .prev:hover {
+                    color: #304a69;
+            }
+        }
+    }
+    .week {
+        background-color: green;
+        ul {
+            background-color:#f1f1f1;
+            margin: 0px;
+            padding: 0px ;
+            li {
+                display: inline-block;
+                width: 13.6%;
+                text-align: center;
+                margin: 15px 0px;
+                padding: 0px;
+              }
+            }
+    }
+    .day {
+        background-color: #fff;
+        ul {
+            padding: 0px;
+            li {
+                display: inline-block;
+                width: 13.6%;
+                text-align: center;
+                margin: 5px 0px;
+                padding: 5px 0px;
+                background-color: #2894bf;
+            }
+            li:hover {
+                border-radius: 5px;
+                background-color: #2894bf;
+                color: white !important;
+            }
+            .pin {
+                border-radius: 5px;
+                background: #2894bf;
+                color: white !important;
+              }
+        }
+        
+    }
+}

@@ -1,0 +1,202 @@
+@import '../node_modules/font-awesome/scss/font-awesome.scss';
+$prz: green;
+$lite-gray: #9b9b9b;
+$super-lite-gray: #dbdbdb;
+$smidgen-of-grey: #ececec;
+$spa-blue: #2894bf;
+$dark-blue: #304a69;
+.wy-logo {
+    img {
+        height: 40px;
+    }
+    h3 {
+        margin: 3px 0px 0px 5px;
+        
+    }
+} 
+
+@media screen and (max-width: 480px) {
+    .wy-logo img, .wy-logo h3{
+        display: none;
+    }
+    .nav li {
+        width: 100%;
+        display: none;
+    }
+  }
+  @media screen and (min-width: 480px) { 
+    .ham {
+        display: none;
+    }
+  }
+.fa-shopping-bag {
+   padding-left: 7px;
+}
+.navbar {
+    box-shadow: 0px 1px 7px rgba(0, 0, 0, 0.2);
+}
+.nav-item{
+    border-left: 1px solid $lite-gray;
+}
+
+.nav-item:hover {
+    background-color: $super-lite-gray;
+    transition: background-color 1s;
+    
+}
+#wySPAcarousel {
+    height: 700px;
+    overflow: hidden;
+}
+.carousel-caption {
+    top: 300px;
+    text-shadow: -2px 2px 37px black;
+}
+.carousel-item > img {
+    height: 700px;
+    object-fit: cover;
+}
+.size-64 {
+    height: 128px;
+    width: 128px;
+    object-fit: cover;
+}
+.bg-lite {
+    background-color: $super-lite-gray;
+    border-radius: 6px;
+}
+.bord {
+    
+    border-radius: 8px;
+    padding: 0px;
+    overflow: hidden;
+    box-shadow: 2px 2px 6px $super-lite-gray;
+    .img {
+        margin: 0px;
+        padding: 0px;
+        max-height: 200px;
+        img {
+            height: 100%;
+            width: 100%;
+        }
+        
+    }
+}
+.media-body {
+    
+    .btn {
+        background-color: $spa-blue;
+    }
+    
+    span {
+        
+        line-height: 40px;;
+    }
+}
+.inline {
+    display: flex;
+}
+.inline>p{
+    margin-right: 20px;
+}
+.stretch > div {
+    padding: 0px;
+    margin: 20px;
+    box-sizing: content-box;;
+}
+.cal-wrap {
+    padding: 0px;
+    margin: 0px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 2px 2px 5px rgba(175, 174, 174, 0.315);
+    border: 1px solid $spa-blue;
+}
+
+.cal {
+    background-color: white;
+    padding: 0px;
+    font-size: 12px;
+    cursor: default;
+    ul {
+        list-style: none;
+    }
+    .month {
+        background-color: $spa-blue;
+        color: white;
+        text-align: center;
+        padding: 5px 0px;
+        width: 100%;
+        
+        ul {
+            padding: 5px;
+            font-size: 20px;
+            .mid {
+                padding-top: 15px;
+            }
+            .prev {
+                float: left;
+                
+            }
+            .next {
+                float: right;
+            }
+            .next, .prev {
+                padding: 15px;
+                font-size: 40px;
+                cursor: pointer;
+            }
+            .next:hover, .prev:hover {
+                    color: $dark-blue;
+            }
+        }
+    }
+    .week {
+        background-color: $smidgen-of-grey;
+        padding: 10px;
+        ul {
+            margin: 0px;
+            padding-left: 10px;
+            li {
+                display: inline-block;
+                width: 13%;
+                text-align: center;
+                margin: 5px 0px;
+                padding: 5px;
+                
+              }
+            }
+    }
+    .day {
+        background-color: white;
+        padding: 10px 10px 0px 10px;
+        ul {
+            padding-left: 10px;
+            li {
+                color: $spa-blue;
+                display: inline-block;
+                width: 13%;
+                text-align: center;
+                margin: 3px 0px;
+                padding: 7px 0px;
+                cursor: pointer;
+            }
+            li:hover {
+                border-radius: 5px;
+                background-color: $spa-blue;
+                color: white !important;
+            }
+            .pin {
+                border-radius: 5px;
+                background: $spa-blue;
+                color: white !important;
+            }
+            .heute {
+                border-radius: 5px;
+                background: $smidgen-of-grey;
+                color:  black !important;
+            }
+        }
+        
+    }
+}
