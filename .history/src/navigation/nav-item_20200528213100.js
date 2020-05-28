@@ -11,7 +11,7 @@ export const navItem = (text, click) => {
     anchor.append('<i class="fa fa-shopping-bag" aria-hidden="true"></i>');
     anchor.on('click', click);
     anchor.on('mouseenter', () => {  
-      $(".drawer").removeClass("d-none")
+      $(".drawer").toggleClass("d-none")
       const myOrdFin = localStore.read();
       console.log(myOrdFin.length);
       
@@ -19,7 +19,7 @@ export const navItem = (text, click) => {
         const roomb = !!myOrdFin.room ? "Pokój na termin <br>"+myOrdFin.start.day+" "+myOrdFin.start.month+"-"+myOrdFin.end.day+" "+myOrdFin.end.month:"";//location.pathname = "/";
       
         let treats = "";
-        //console.log(myOrdFin.treatments)
+        console.log(myOrdFin.treatments)
         if(!!myOrdFin.treatments){
           treats = myOrdFin.treatments.length>0 ? "zabiegi w ilości: "+myOrdFin.treatments.length:"";
         }

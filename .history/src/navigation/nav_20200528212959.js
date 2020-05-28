@@ -14,8 +14,8 @@ export const nav = () => {
   const navbar = $(`
   <nav class="navbar justify-content-end justify-content-md-between fixed-top bg-white">
   <span class="d-flex wy-logo">
-    <img class="d-none d-md-block" src="${logo}" alt="ss">
-    <h3 class="d-none d-md-block">WY&#x2022;SPA</h3>
+    <img class="" src="${logo}" alt="ss">
+    <h3>WY&#x2022;SPA</h3>
   </span>
   <span ><a class="btn ham text-secondary"><i class="fa fa-bars" aria-hidden="true"></i></a></span>
     <ul class="nav">

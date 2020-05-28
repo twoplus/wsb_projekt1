@@ -18,7 +18,7 @@ export const treatments = () => {
     </div>
     <div class="container"></div>`);
     items.forEach(element => {
-      fragment.find(".container").append(`<div class="offset-md-2 offset-lg-0 jumbotron">
+      fragment.find(".container").append(`<div class="jumbotron">
       <h3 class="5">${element.name}</h3>
       <p >${element.desc}</p>
       <hr class="my-4">

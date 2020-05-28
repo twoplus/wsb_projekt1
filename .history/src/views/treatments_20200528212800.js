@@ -10,7 +10,7 @@ export const treatments = () => {
     const trts =  [];
     fragment.append(`<br><br>
     <h3 class="text-center">Zamów zabiegi </h3>
-    <div class="prz-fixed d-flex flex-column p-3 bg-white reounded">
+    <div class="prz-fixed d-flex flex-column p-3 ">
     
     
     <p class="text-center s-count text-success">Wybranych: <span>${!!myOrder.treatments?myOrder.treatments.length:0}</span></p>
@@ -18,7 +18,7 @@ export const treatments = () => {
     </div>
     <div class="container"></div>`);
     items.forEach(element => {
-      fragment.find(".container").append(`<div class="offset-md-2 offset-lg-0 jumbotron">
+      fragment.find(".container").append(`<div class="jumbotron">
       <h3 class="5">${element.name}</h3>
       <p >${element.desc}</p>
       <hr class="my-4">
