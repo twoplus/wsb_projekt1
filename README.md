@@ -1,71 +1,38 @@
 # IT SPA
 
-Projekt polega na napisaniu aplikacji Single Page Application dla ośrodka SPA dedykowanego programistom.
+Projekt aplikacji Single Page Application dla fikcyjnego ośrodka hotelowego ze SPA o nazwie WY-SPA.
 
-Aplikacja powinna umożliwiać: 
+Aplikacja umożliwia: 
 
 - Przeglądanie dostępnych zabiegów
 - Dodawanie wybranych zabiegów do koszyka
 - Wybór daty przyjazdu i wyjazdu oraz pokoju  
-- Rejestrację użytkownika (opcjonalnie)
-- Logowanie użytkownika (opcjonalnie)
 - Podsumowanie składanego zamówienia
 
-## Booking
+Zrealizowane wymagania:
+- [x] Po najechaniu koszyka myszką koszyk będzie wyświetlał dodane pokoje i zabiegi.
+- [x] Dodawanie wybranych zabiegów do koszyka
+- [x] Podsumowanie składanego zamówienia
+- [x] Koszyk umożliwia nanoszenie poprawek do zamówienia
+- [x] Użytkownik nie może wybrać daty przyjazdu wcześniejszej niż bieżąca
+- [x] Wybrana data wyjazdu nie może być dalsza niż rok od daty przyjazdu.
+- [x] Wybór daty przyjazdu i wyjazdu oraz pokoju
+- [x] koszyk wyświetla podsumowanie zamówienia
+- [x] Przeglądanie dostępnych zabiegów
+- [x] Do interakcji z serwerem bazy danych wykorzystaj fetch.
 
-Stwórz komponent koszyka, który wyświetla podsumowanie zamówienia.
-Koszyk powinien też umożliwiać nanoszenie poprawek do zamówienia.
-Użytkownik nie może wybrać daty przyjazdu wcześniejszej niż bieżąca.
-Wybrana data wyjazdu nie może być dalsza niż rok od daty przyjazdu.
-
-## Rejestracja
-
-Stwórz komponent rejestracji użytkownika z opcjonalnym miernikiem siły hasła.
-Rejestracja polega na zapisaniu danych użytkownika (e-mail i hasła) w pliku `database.json`.
-Nie powinna być możliwa rejestracja użytkownika o identycznym adresie e-mail.
-
-## Logowanie
-
-Stwórz komponent logowania użytkownika, który opcjonalnie będzie wyświetlał avatar użytkownika.
-Logowanie polega na porównaniu podanych przez użytkownika danych (e-mail i hasła) z tymi w pliku `database.json`.
-
-## Pokoje
-
-Bazę przykładowych pokoi w ośrodku IT SPA znajdziesz w pliku `database.json`.
-Możesz dowolnie zmienić istniejące pokoje lub dodać swoje własne. 
-
-## Zabiegi 
-
-Bazę przykładowych zabiegów ośrodka IT SPA znajdziesz w pliku `database.json`.
-Możesz dowolnie zmienić istniejące zabiegi lub dodać swoje własne. 
 
 ## Koszyk
 
-Stwórz komponent koszyka, który po najechaniu myszką będzie wyświetlał dodane pokoje i zabiegi.
-Koszyk musi przetrwać przeładowanie strony, dlatego spróbuj wykorzystać ciasteczka (Cookies).
+Komponent koszyka, który po najechaniu myszką będzie wyświetla dodane pokoje i zabiegi.
+Koszyk musi przetrwać przeładowanie strony, dlatego wykorzystuje LocalStorage.
 
 ## Technologie
 
 - HTML, Bootstrap
-- CSS, Sass, LESS
+- CSS, Sass
 - JavaScript, jQuery
-- Node, Express
+- ECMAScript 6.
 
-Postaraj się korzystać z ECMAScript 6.
+Do interakcji z serwerem bazy danych wykorzystano `fetch`.
 
-Do interakcji z serwerem bazy danych wykorzystaj `fetch`.
-Jeśli lubisz eksperymenty, zainstaluj pakiet `axios`.
-
-## Ocena
-
-Zamieść gotowy projekt na swoim GitHubie.
-Postaraj się oddać projekt do końca maja 2020.
-
-## Przykłady
-
-Strony, którymi możesz się inspirować: 
-
-- afrodyta-spa.pl
-- bukowypark.pl
-- hotelczarnypotok.pl
-- hotelniemcza.pl
